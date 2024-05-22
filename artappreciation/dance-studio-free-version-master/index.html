@@ -501,62 +501,119 @@
       </div>
     </div>
   </section>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Enhanced Footer</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-5CRdAz8ZCCpI6wQqBZpZZ3Ek1Cbjz5BS6lnk4U1KfgxjsMTA/GD1jpF4yz97fQmY"
+          crossorigin="anonymous">
+      <style>
+          body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+              display: flex;
+              flex-direction: column;
+              min-height: 100vh;
+          }
+          .content {
+              flex: 1;
+          }
+          footer {
+              background-color: #333;
+              color: #fff;
+              padding: 40px 0;
+          }
+          #footer-bottom {
+              background-color: #222;
+              color: #bbb;
+              padding: 20px 0;
+          }
+          .footer-menu ul, .social-links ul {
+              display: flex;
+              justify-content: center;
+              padding: 0;
+          }
+          .footer-menu ul li, .social-links ul li {
+              list-style: none;
+              margin: 0 10px;
+          }
+          .footer-menu ul li a, .social-links ul li i {
+              color: #fff;
+              text-decoration: none;
+              transition: color 0.3s;
+          }
+          .footer-menu ul li a:hover, .social-links ul li i:hover {
+              color: #ddd;
+          }
+          .footer-logo img {
+              max-width: 100px;
+              margin: 0 auto;
+              display: block;
+          }
+          .align-center {
+              text-align: center;
+          }
+      </style>
+  </head>
+  <body>
+  
+  <div class="content">
+      <!-- Main content of the website goes here -->
+  </div>
+  
   <footer id="footer" class="padding-large">
-    <div class="container">
-      <div class="footer-content row">
-        <div class="col-md-4">
-          <div class="footer-menu">
-            <ul class="d-flex list-unstyled justify-content-md-start justify-content-center">
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-            </ul>
+      <div class="container">
+          <div class="footer-content row">
+              <div class="col-md-4">
+                  <div class="footer-menu">
+                      <ul class="d-flex list-unstyled justify-content-md-start justify-content-center">
+                          <li>
+                              <a href="index.html">Home</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="footer-logo align-center">
+                      <img src="images/main-logo.png" alt="logo">
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="social-links">
+                      <ul class="d-flex list-unstyled justify-content-md-end justify-content-center">
+                          <li>
+                              <i class="icon icon-facebook"></i>
+                          </li>
+                          <li>
+                              <i class="icon icon-twitter"></i>
+                          </li>
+                          <li>
+                              <i class="icon icon-youtube"></i>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="footer-logo align-center">
-            <img src="images/main-logo.png" alt="logo">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="social-links">
-            <ul class="d-flex list-unstyled justify-content-md-end justify-content-center">
-              <li>
-                
-                  <i class="icon icon-facebook"></i>
-                
-              </li>
-              <li>
-                
-                  <i class="icon icon-twitter"></i>
-                
-              </li>
-              <li>
-                
-                  <i class="icon icon-youtube"></i>
-                
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
-    </div>
   </footer>
   <div id="footer-bottom">
-    <div class="container">
-      <div class="copyright align-center">
-        <p>CS 1202 ART APPRECIATION
-        </p>
+      <div class="container">
+          <div class="copyright align-center">
+              <p>CS 1202 ART APPRECIATION</p>
+          </div>
       </div>
-    </div>
   </div>
   <script src="js/jquery-1.11.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
-</body>
-
-</html>
+  </body>
+  </html>
+  
